@@ -1,0 +1,4 @@
+ public void print(String document) {
+        printer.printDocument(document);
+    }
+}
