@@ -1,0 +1,8 @@
+public class PrintScannerAdapter implements Printable, Scanner {
+    private Printable printer;
+    private Scanner scanner;
+
+    public PrintScannerAdapter(Printable printer, Scanner scanner) {
+        this.printer = printer;
+        this.scanner = scanner;
+    }
