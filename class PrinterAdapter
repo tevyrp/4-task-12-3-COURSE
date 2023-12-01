@@ -1,0 +1,6 @@
+public class PrinterAdapter implements Printable {
+    private Printer printer;
+
+    public PrinterAdapter(Printer printer) {
+        this.printer = printer;
+    }
