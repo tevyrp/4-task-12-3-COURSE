@@ -1,0 +1,6 @@
+public class ScannerAdapter implements Scanner {
+    private Scanner scanner;
+
+    public ScannerAdapter(Scanner scanner) {
+        this.scanner = scanner;
+    }
