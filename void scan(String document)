@@ -1,0 +1,4 @@
+public void scan(String document) {
+        scanner.scanDocument(document);
+    }
+}
