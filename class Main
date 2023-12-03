@@ -1,0 +1,12 @@
+public class Main {
+    public static void main(String[] args) {
+      
+        Scanner scannerAdapter = new ScannerAdapter(new Scanner());
+
+        Printable printerAdapter = new PrinterAdapter(new Printer());
+
+        String document = "Hello, World!";
+        scannerAdapter.scan(document);
+        printerAdapter.print(document);
+    }
+}
